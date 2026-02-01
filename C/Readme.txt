@@ -1,0 +1,1 @@
+compilation: gcc -o name_exe name.cpp

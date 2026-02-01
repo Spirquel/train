@@ -1,0 +1,1 @@
+compilation: rustc name.rs -o name_executable
