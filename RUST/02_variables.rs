@@ -1,7 +1,11 @@
 //let: const type; let mut: type; &mut: tempory pointer
+//types: i32/64, f32/64, char, bool, &str
 
 fn main()
 {
+    let nb_respect: i32;
+    nb_respect = 4;
+
     let mut input = String::new();
     println!("Please enter a number:");
     
@@ -11,14 +15,12 @@ fn main()
     //i32: int32
     let number: i32 = input.trim().parse().expect("Please type a number!");
 
-    //let number = 5;
-
-    if number == 4
+    if number == nb_respect
     {
-        println!("number value is 4");
+        println!("number value is {nb_respect}");
     }
     else
     {
-        println!("number value is not 4 but {number}");
+        println!("number value is not {nb_respect} but {number}");
     }
 }
